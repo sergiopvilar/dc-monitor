@@ -1,0 +1,7 @@
+source.jpg
+input.jpg
+node_modules
+screenshots/*.jpg
+screenshots/*.png
+.DS_Store
+.env
