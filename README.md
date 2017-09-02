@@ -11,6 +11,8 @@ Verifica desconexão em Ragnarok Online usando reconhecimento textual em imagens
 
 ## Configurando
 
+- Clonar o repositório ou ![baixar o zip](https://github.com/sergiovilar/dc-monitor/archive/master.zip)
+- Abrir o terminal do NodeJS na pasta do projeto e rodar `npm install`
 - ![Adicionar Tesseract e ImageMagick ao PATH](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
 - Fazer com que o software de captura escreva as imagens na pasta `screenshots`
 - Criar um arquivo .env na pasta do projeto da seguinte forma:
