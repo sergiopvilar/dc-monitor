@@ -11,7 +11,7 @@ Verifica desconexão em Ragnarok Online usando reconhecimento textual em imagens
 
 ## Configurando
 
-- Adicionar Tesseract e ImageMagick ao PATH
+- ![Adicionar Tesseract e ImageMagick ao PATH](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
 - Fazer com que o software de captura escreva as imagens na pasta `screenshots`
 - Criar um arquivo .env na pasta do projeto da seguinte forma:
 
