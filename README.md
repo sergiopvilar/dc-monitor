@@ -13,13 +13,28 @@ Verifica desconexão em Ragnarok Online usando reconhecimento textual em imagens
 
 Veja ![neste guia](./SETUP.md) como instalar o NodeJS, Tesseract e ImageMagick.
 
-## Configurando
+## Configurando o reconhecimento de imagem
 
-- Clonar o repositório ou ![baixar o zip](https://github.com/sergiovilar/dc-monitor/archive/master.zip)
-- Abrir o **Node.js command prompt**, entre na pasta do projeto e rode `npm install`
-- ![Adicionar Tesseract e ImageMagick ao PATH](./SETUP.md)
-- Fazer com que o software de captura escreva as imagens na pasta `screenshots`
-- Criar um arquivo chamado `.env` na pasta do projeto da seguinte forma:
+- Clone o repositório ou ![baixe o zip](https://github.com/sergiovilar/dc-monitor/archive/master.zip)
+- Abra o **Node.js command prompt**, entre na pasta do projeto e rode `npm install`
+- ![Adicione o Tesseract e o ImageMagick ao PATH](./SETUP.md)
+
+## Testando a configuração
+
+1 - Baixe esta imagem para sua pasta `sceenshots`:
+
+![screenshot](https://dl.dropboxusercontent.com/s/ovxr1ztlz3qigmv/source.png)
+
+2 - Abra o **Node.js command prompt**, entre na pasta do projeto e rode:
+
+    node index.js run
+
+Você deverá ver uma mensagem "Personagem tomou DC".
+
+## Configurando o bot do Telegram
+
+- Faça com que o software de captura escreva as imagens na pasta `screenshots`
+- Crie um arquivo chamado `.env` na pasta do projeto da seguinte forma:
 
 ```
 TELEGRAM_TOKEN=<SEU_TOKEN>
@@ -28,10 +43,6 @@ TELEGRAM_TOKEN=<SEU_TOKEN>
 Sendo `<SEU_TOKEN>` sendo substituído pelo Token do Telegram que você obtém ao ![criar o bot](https://core.telegram.org/bots#creating-a-new-bot).
 
 ## Rodando o projeto
-
-Para processar apenas a última screenshot, abra **Node.js command prompt** e rode:
-
-    node index.js run
 
 Para iniciar o bot do telegram, abra o **Node.js command prompt** e rode:
 
