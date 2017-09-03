@@ -4,20 +4,20 @@ Verifica desconexão em Ragnarok Online usando reconhecimento textual em imagens
 
 ## Pré-requisitos
 
-- Algo que capture screenshots do jogo periodicamente como o ![Auto Screen Capture](https://sourceforge.net/projects/autoscreen)
-- ![NodeJS](http://nodejs.org)
-- ![Tesseract](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe)
-- ![ImageMagick](https://www.imagemagick.org/download/binaries/ImageMagick-7.0.6-10-portable-Q16-x86.zip)
+- Algo que capture screenshots do jogo periodicamente como o [Auto Screen Capture](https://sourceforge.net/projects/autoscreen)
+- [NodeJS](http://nodejs.org)
+- [Tesseract](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe)
+- [ImageMagick](https://www.imagemagick.org/download/binaries/ImageMagick-7.0.6-10-portable-Q16-x86.zip)
 
 ### Como instalar os pré-requisitos
 
-Veja ![neste guia](./SETUP.md) como instalar o NodeJS, Tesseract e ImageMagick.
+Veja [neste guia](./SETUP.md) como instalar o NodeJS, Tesseract e ImageMagick.
 
 ## Configurando o reconhecimento de imagem
 
-- Clone o repositório ou ![baixe o zip](https://github.com/sergiovilar/dc-monitor/archive/master.zip)
+- Clone o repositório ou [baixe o zip](https://github.com/sergiovilar/dc-monitor/archive/master.zip)
 - Abra o **Node.js command prompt**, entre na pasta do projeto e rode `npm install`
-- ![Adicione o Tesseract e o ImageMagick ao PATH](./SETUP.md)
+- [Adicione o Tesseract e o ImageMagick ao PATH](./SETUP.md)
 
 ## Testando a configuração
 
@@ -40,7 +40,7 @@ Você deverá ver uma mensagem "Personagem tomou DC".
 TELEGRAM_TOKEN=<SEU_TOKEN>
 ```
 
-Sendo `<SEU_TOKEN>` sendo substituído pelo Token do Telegram que você obtém ao ![criar o bot](https://core.telegram.org/bots#creating-a-new-bot).
+Sendo `<SEU_TOKEN>` sendo substituído pelo Token do Telegram que você obtém ao [criar o bot](https://core.telegram.org/bots#creating-a-new-bot).
 
 ## Rodando o projeto
 

@@ -2,15 +2,15 @@
 
 ### Tesseract
 
-Após baixar o Tesseract ![neste link](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe), instale-o seguinto o protocolo básico de "próximo/próximo/concluído".
+Após baixar o Tesseract [neste link](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe), instale-o seguinto o protocolo básico de "próximo/próximo/concluído".
 
 ### Image Magick
 
-No caso do Image Magick, baixe a versão portátil ![neste link](https://www.imagemagick.org/download/binaries/ImageMagick-7.0.6-10-portable-Q16-x86.zip) e extraia para `C:/imagemagick`.
+No caso do Image Magick, baixe a versão portátil [neste link](https://www.imagemagick.org/download/binaries/ImageMagick-7.0.6-10-portable-Q16-x86.zip) e extraia para `C:/imagemagick`.
 
 ### Node.js
 
-Baixe o Node.js na versão recomendável para a maioria dos usuários através do site que pode ser acessado ![neste link](http://nodejs.org) e siga o mesmo esquema de instalação (próximo/próximo/concluído).
+Baixe o Node.js na versão recomendável para a maioria dos usuários através do site que pode ser acessado [neste link](http://nodejs.org) e siga o mesmo esquema de instalação (próximo/próximo/concluído).
 
 ## Adicionando ao PATH
 
