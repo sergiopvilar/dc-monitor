@@ -4,7 +4,7 @@ Verifica desconexão em Ragnarok Online usando reconhecimento textual em imagens
 
 ## Pré-requisitos
 
-- Algo que capture screenshots do jogo periodicamente como o ![Auto Screen Capture](https://sourceforge.net/projects/autoscreen/)
+- Algo que capture screenshots do jogo periodicamente como o ![Auto Screen Capture](https://sourceforge.net/projects/autoscreen)
 - ![NodeJS](http://nodejs.org)
 - ![Tesseract](http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe)
 - ![ImageMagick](https://www.imagemagick.org/download/binaries/ImageMagick-7.0.6-10-portable-Q16-x86.zip)
