@@ -42,7 +42,7 @@ class DCMonitor {
   }
 
   processSource(callback) {
-    exec('convert source.jpg -resize 600% -type Grayscale -gravity center -extent 50% input.jpg', callback);
+    exec('magick convert source.jpg -resize 600% -type Grayscale -gravity center -extent 50% input.jpg', callback);
   }
 
   message(message) {
